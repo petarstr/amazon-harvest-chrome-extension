@@ -1,7 +1,7 @@
 # Amazon-Harvest
 
 Google Chrome extension. 
-Collects information about products from detail pages on Amazon. Collects: Title, Customer Review No., Price, ASIN, Rank, UPC.
+Collects information about products from detail pages on Amazon. Collects: Title, Customer Review No, Price, ASIN, Rank, UPC.
 
 When you open a page with a particular product click on the extension icon, data will be stored in a table row, after that click on copy and your information is ready to be pasted in a spreadsheet. 
 
