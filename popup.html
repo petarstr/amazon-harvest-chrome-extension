@@ -1,0 +1,79 @@
+<!doctype html>
+
+<html style="min-width: 400px;">
+  <head>
+    
+    <style>
+     
+        body{ 
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 13px;
+        }
+
+        #myRow {
+          position:static;
+        }        
+
+
+        #buttonSelect {
+          background-color: #555555;
+          border: none;
+          color: white;
+          text-align: center;
+          display: inline-block;
+          font-size: 14px;
+          border-radius: 4px;
+          padding: 6px 14px;
+          position: relative;
+          top: 5px;
+          left: 165px;
+          
+        }
+
+       
+
+    </style>
+
+    <script src="popup.js"></script>
+
+  </head>
+
+     <body style="background-image:url(images.jpg)">
+  
+  
+     <h3 style="font-weight:bold; text-align:center;">Product Details</h3>
+
+
+       <table border="1" cellpadding="3" style="border-collapse:collapse;" id='myRow'>
+        
+        <tr>
+           <th>Title</th>
+           <th>Review No.</th>
+           <th>Price</th>
+           <th>ASIN</th>
+           <th>Rank</th>
+           <th>UPC</th>
+       </tr>
+      
+       <tr>
+        <td align="left"><span id="title">N/A</span></td>
+        <td align="center"><span id="review">N/A</span></td>
+        <td align="center"><span id="price">N/A</span></td>
+        <td align="center"><span id="asin">N/A</span></td>
+        <td align="center"><span id="rank">N/A</span></td>
+        <td align="center"><span id="upc">N/A</span></td>
+      </tr>
+    
+      
+      
+      </table>
+      
+      <button type='button', id='buttonSelect'>Copy</button>
+  
+      
+      
+
+      
+  </body>
+</html>
+
